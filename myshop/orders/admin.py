@@ -18,15 +18,6 @@ def order_stripe_payment(obj):
     return ''
 order_stripe_payment.short_description = 'Stripe payment'
 
-
-@admin.register(Order)
-class OrderAdmin(admin.ModelAdmin):
-    list_display = ['id', 'first_name', 'last_name', 'email', 
-                    'address', 'postal_code', 'city', 'paid', 
-                    order_stripe_payment, 'created', 'updated']
-    list_filter = ['paid', 'created', 'updated']
-    inlines = [OrderItemInline]
-
 def export_to_csv(modeladmin, request, queryset):
     opts = modeladmin.model._meta
     content_disposition = f'attachment; filename={opts.verbose_name}.csv'
@@ -47,3 +38,12 @@ def export_to_csv(modeladmin, request, queryset):
         writer.writerow(data_row)
     return response
 export_to_csv.short_description = 'Export to CSV'
+
+@admin.register(Order)
+class OrderAdmin(admin.ModelAdmin):
+    list_display = ['id', 'first_name', 'last_name', 'email', 
+                    'address', 'postal_code', 'city', 'paid', 
+                    order_stripe_payment, 'created', 'updated']
+    list_filter = ['paid', 'created', 'updated']
+    inlines = [OrderItemInline]
+    actions = [export_to_csv]
