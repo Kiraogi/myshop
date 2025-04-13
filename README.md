@@ -29,7 +29,7 @@ MyShop - это полнофункциональное веб-приложени
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/yourusername/myshop.git
+git clone https://github.com/Kiraogi/myshop.git
 cd myshop
 ```
 
@@ -119,4 +119,4 @@ myshop/
 ```
 
 ## Лицензия
-[MIT License](LICENSE)
+Этот проект распространяется под [лицензией MIT](LICENSE). Подробности можно узнать в файле [LICENSE](LICENSE).
