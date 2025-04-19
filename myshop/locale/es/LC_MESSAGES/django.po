@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 21:08+0300\n"
+"POT-Creation-Date: 2025-04-17 21:28+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,10 @@ msgstr "Imagen"
 #: .\cart\templates\cart\detail.html:13
 msgid "Product"
 msgstr "Producto"
+
+#: .\cart\templates\cart\detail.html:15
+msgid "Remove"
+msgstr "Eliminar"
 
 #: .\cart\templates\cart\detail.html:16
 msgid "Unit price"
@@ -65,11 +69,11 @@ msgstr "Personas que compraron esto también compraron"
 
 #: .\cart\templates\cart\detail.html:87
 msgid "Apply a coupon"
-msgstr ""
+msgstr "Aplicar cupón"
 
 #: .\cart\templates\cart\detail.html:94
 msgid "Continue shopping"
-msgstr "Aplicar cupón"
+msgstr "Continuar comprando"
 
 #: .\cart\templates\cart\detail.html:95
 msgid "Checkout"
@@ -79,11 +83,11 @@ msgstr "Comprar"
 msgid "Coupon"
 msgstr "Cupón"
 
-#: .\myshop\settings.py:154
+#: .\myshop\settings.py:155
 msgid "English"
 msgstr "Inglés"
 
-#: .\myshop\settings.py:155
+#: .\myshop\settings.py:156
 msgid "Spanish"
 msgstr "Español"
 
@@ -121,15 +125,15 @@ msgstr "Añadir al carro"
 msgid "People who bought this also bought"
 msgstr ""
 
-#: .\shop\templates\shop\product\list.html:4
-#: .\shop\templates\shop\product\list.html:22
+#: .\shop\templates\shop\product\list.html:5
+#: .\shop\templates\shop\product\list.html:23
 msgid "Products"
 msgstr "Productos"
 
-#: .\shop\templates\shop\product\list.html:9
+#: .\shop\templates\shop\product\list.html:10
 msgid "Categories"
 msgstr "Categorías"
 
-#: .\shop\templates\shop\product\list.html:12
+#: .\shop\templates\shop\product\list.html:13
 msgid "All"
 msgstr "Todos"
