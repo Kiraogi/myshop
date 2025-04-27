@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-17 21:08+0300\n"
+"POT-Creation-Date: 2025-04-27 15:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,3 +120,7 @@ msgstr "Pagado"
 #: .\orders\templates\orders\order\pdf.html:65
 msgid "Pending payment"
 msgstr "Pendiente de pago"
+
+#: .\orders\urls.py:9
+msgid "create/"
+msgstr ""
