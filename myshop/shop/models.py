@@ -8,10 +8,10 @@ class Category(TranslatableModel):
         slug = models.SlugField(max_length=200, unique=True),
     )
     class Meta:
-        ordering = ['name']
-        indexes = [
-            models.Index(fields=['name']),
-        ]
+        # ordering = ['name']
+        # indexes = [
+        #     models.Index(fields=['name']),
+        # ]
         verbose_name='category'
         verbose_name_plural='categories'
 
@@ -25,7 +25,7 @@ class Product(TranslatableModel):
     translations = TranslatedFields(
     name = models.CharField(max_length=200),
     slug = models.SlugField(max_length=200),
-    description = models.TextField(blank=True),
+    description = models.TextField(blank=True)
     )
     category = models.ForeignKey(Category,
                                  related_name='products',
@@ -39,10 +39,10 @@ class Product(TranslatableModel):
     updated = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ['name']
+        # ordering = ['name']
         indexes = [
-            models.Index(fields=['id', 'slug']),
-            models.Index(fields=['name']),
+            # models.Index(fields=['id', 'slug']),
+            # models.Index(fields=['name']),
             models.Index(fields=['-created']),
         ]
 
