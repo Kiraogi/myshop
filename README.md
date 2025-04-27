@@ -28,7 +28,7 @@
 | База данных     | SQLite (dev) / PostgreSQL (prod)             |
 | Асинхронность   | Celery + RabbitMQ / Redis                    |
 | Платежи         | Stripe API                                   |
-| Frontend        | HTML / CSS / JS (Bootstrap 5)                |
+| Frontend        | HTML / CSS / JS                              |
 
 ---
 
