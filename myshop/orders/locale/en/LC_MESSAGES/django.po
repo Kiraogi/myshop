@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-27 15:45+0300\n"
+"POT-Creation-Date: 2025-04-27 18:52+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 
 #: .\orders\templates\orders\order\create.html:26
-#: .\orders\templates\orders\order\pdf.html:58
+#: .\orders\templates\orders\order\pdf.html:59
 msgid "Total"
 msgstr ""
 
@@ -68,43 +68,43 @@ msgstr ""
 msgid "Place order"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:3
+#: .\orders\templates\orders\order\pdf.html:4
 msgid "My Shop"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:5
+#: .\orders\templates\orders\order\pdf.html:6
 msgid "Invoice no."
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:10
+#: .\orders\templates\orders\order\pdf.html:11
 msgid "Bill to"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:17
+#: .\orders\templates\orders\order\pdf.html:18
 msgid "Items bought"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:21
+#: .\orders\templates\orders\order\pdf.html:22
 msgid "Product"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:22
+#: .\orders\templates\orders\order\pdf.html:23
 msgid "Price"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:23
+#: .\orders\templates\orders\order\pdf.html:24
 msgid "Quantity"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:24
+#: .\orders\templates\orders\order\pdf.html:25
 msgid "Cost"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:39
+#: .\orders\templates\orders\order\pdf.html:40
 msgid "Subtotal"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:46
+#: .\orders\templates\orders\order\pdf.html:47
 #, python-format
 msgid ""
 "\n"
@@ -112,11 +112,11 @@ msgid ""
 "                        "
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:65
+#: .\orders\templates\orders\order\pdf.html:66
 msgid "Paid"
 msgstr ""
 
-#: .\orders\templates\orders\order\pdf.html:65
+#: .\orders\templates\orders\order\pdf.html:66
 msgid "Pending payment"
 msgstr ""
 

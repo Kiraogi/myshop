@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-27 15:45+0300\n"
+"POT-Creation-Date: 2025-04-27 18:52+0300\n"
 "PO-Revision-Date: 2025-04-27 15:50+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 "X-Translated-Using: django-rosetta 0.10.2\n"
 
 #: .\cart\forms.py:7 .\cart\templates\cart\detail.html:14
@@ -83,11 +84,11 @@ msgstr "Comprar"
 msgid "Coupon"
 msgstr "Cupón"
 
-#: .\myshop\settings.py:155
+#: .\myshop\settings.py:157
 msgid "English"
 msgstr "Inglés"
 
-#: .\myshop\settings.py:156
+#: .\myshop\settings.py:158
 msgid "Spanish"
 msgstr "Español"
 
@@ -125,11 +126,15 @@ msgstr "pago cancelado/"
 msgid "My shop"
 msgstr "Mi tienda"
 
-#: .\shop\templates\shop\base.html:18
+#: .\shop\templates\shop\base.html:17
+msgid "Language"
+msgstr ""
+
+#: .\shop\templates\shop\base.html:33
 msgid "Your cart"
 msgstr "Su carro"
 
-#: .\shop\templates\shop\base.html:20
+#: .\shop\templates\shop\base.html:35
 #, python-format
 msgid ""
 "\n"
@@ -147,7 +152,7 @@ msgstr[1] ""
 "%(items)s producto, $%(total)s"
 msgstr[2] ""
 
-#: .\shop\templates\shop\base.html:27
+#: .\shop\templates\shop\base.html:42
 msgid "Your cart is empty."
 msgstr "Su carro está vacío."
 
